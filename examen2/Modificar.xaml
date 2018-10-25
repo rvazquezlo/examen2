@@ -1,0 +1,19 @@
+﻿<Window x:Class="examen2.Modificar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:examen2"
+        mc:Ignorable="d"
+        Title="Modificar" Height="300" Width="300" Loaded="Window_Loaded">
+    <Grid>
+        <Label x:Name="lbHoras" Content="Horas:" HorizontalAlignment="Left" Margin="47,117,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtHoras" HorizontalAlignment="Left" Height="23" Margin="129,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lbCurso" Content="id del curso a modificar:" HorizontalAlignment="Left" Margin="47,30,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbIds" HorizontalAlignment="Left" Margin="189,30,0,0" VerticalAlignment="Top" Width="60" Height="26"/>
+        <Button x:Name="btModificar" Content="Modificar" HorizontalAlignment="Left" Margin="174,165,0,0" VerticalAlignment="Top" Width="75" Click="btModificar_Click"/>
+        <Button x:Name="btRegistra" Content="Registra" HorizontalAlignment="Left" Margin="47,221,0,0" VerticalAlignment="Top" Width="75" Click="btRegistra_Click" />
+        <Button x:Name="btReportes" Content="Reportes" HorizontalAlignment="Left" Margin="174,221,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.313,0.037" Click="btReportes_Click"/>
+
+    </Grid>
+</Window>
